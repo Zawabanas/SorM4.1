@@ -210,7 +210,11 @@ namespace SorM4.Forms
 
         private void tbUserName_Enter(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             if (tbUserName.Text == "Nombre de usuario")
+=======
+            if (tbUserName.Text == "Nombre de Usuario")
+>>>>>>> Agregar archivos de proyecto.
             {
                 tbUserName.Clear();
             }

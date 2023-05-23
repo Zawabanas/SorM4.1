@@ -124,7 +124,11 @@
   <data name="btnSalir.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAC0AAAAtCAYAAAA6GuKaAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1
+<<<<<<< HEAD
         MAAA6mAAADqYAAAXcJy6UTwAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAHdElNRQfnBRMSCCChzCtFAAAA
+=======
+        MAAA6mAAADqYAAAXcJy6UTwAAAAJcEhZcwAADsIAAA7CARUoSoAAAAAHdElNRQfnBRMSCCChzCtFAAAA
+>>>>>>> Agregar archivos de proyecto.
         GXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAsBJREFUaEPNmbuvDGEYhw+FoCT8AxRU
         LoWChkQpdGhoNFRI6EhU1ISKhj+BuFaUxC1qhfu9IYi4P0+ybzKZc+abb3Z3dr8neXLW7Jyzv53vN+/M
         rpmCWYwb8AQ+xp/4CLdiUSzENXgQr+E7/IP/Kj7EqRNBD+F1/IB/0YD+jMfhD5wKbUE/4U28jb+xGtqK

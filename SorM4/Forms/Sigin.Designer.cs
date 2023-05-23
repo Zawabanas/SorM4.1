@@ -115,7 +115,11 @@
             // 
             // tbEmail
             // 
+<<<<<<< HEAD
             this.tbEmail.Location = new System.Drawing.Point(77, 394);
+=======
+            this.tbEmail.Location = new System.Drawing.Point(77, 393);
+>>>>>>> Agregar archivos de proyecto.
             this.tbEmail.Margin = new System.Windows.Forms.Padding(4);
             this.tbEmail.Name = "tbEmail";
             this.tbEmail.Size = new System.Drawing.Size(374, 38);
@@ -170,7 +174,11 @@
             this.tbUserName.StateCommon.Content.Color1 = System.Drawing.Color.Silver;
             this.tbUserName.StateCommon.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbUserName.TabIndex = 41;
+<<<<<<< HEAD
             this.tbUserName.Text = "Nombre deUsuario";
+=======
+            this.tbUserName.Text = "Nombre de Usuario";
+>>>>>>> Agregar archivos de proyecto.
             this.tbUserName.Enter += new System.EventHandler(this.tbUserName_Enter);
             // 
             // tbLastName

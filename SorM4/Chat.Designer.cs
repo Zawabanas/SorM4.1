@@ -34,12 +34,17 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.lb_Mentrores = new System.Windows.Forms.Label();
             this.btnSalir = new Guna.UI2.WinForms.Guna2Button();
+<<<<<<< HEAD
             this.txtName = new ComponentFactory.Krypton.Toolkit.KryptonTextBox();
             this.kryptonTextBox1 = new ComponentFactory.Krypton.Toolkit.KryptonTextBox();
             this.kryptonTextBox2 = new ComponentFactory.Krypton.Toolkit.KryptonTextBox();
             this.kryptonTextBox3 = new ComponentFactory.Krypton.Toolkit.KryptonTextBox();
             this.kryptonTextBox4 = new ComponentFactory.Krypton.Toolkit.KryptonTextBox();
             this.kryptonTextBox5 = new ComponentFactory.Krypton.Toolkit.KryptonTextBox();
+=======
+            this.txtChat = new ComponentFactory.Krypton.Toolkit.KryptonTextBox();
+            this.kryptonRichTextBox1 = new ComponentFactory.Krypton.Toolkit.KryptonRichTextBox();
+>>>>>>> Agregar archivos de proyecto.
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -95,6 +100,7 @@
             this.btnSalir.TabIndex = 70;
             this.btnSalir.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
+<<<<<<< HEAD
             // txtName
             // 
             this.txtName.Location = new System.Drawing.Point(22, 595);
@@ -207,6 +213,33 @@
             this.kryptonTextBox5.StateCommon.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.kryptonTextBox5.TabIndex = 76;
             this.kryptonTextBox5.Text = "Todavia no, lo hare mas tarde";
+=======
+            // txtChat
+            // 
+            this.txtChat.Location = new System.Drawing.Point(22, 595);
+            this.txtChat.Margin = new System.Windows.Forms.Padding(4);
+            this.txtChat.Name = "txtChat";
+            this.txtChat.Size = new System.Drawing.Size(436, 36);
+            this.txtChat.StateCommon.Back.Color1 = System.Drawing.Color.White;
+            this.txtChat.StateCommon.Border.Color1 = System.Drawing.Color.Gray;
+            this.txtChat.StateCommon.Border.Color2 = System.Drawing.Color.Gray;
+            this.txtChat.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.txtChat.StateCommon.Border.Rounding = 10;
+            this.txtChat.StateCommon.Border.Width = 1;
+            this.txtChat.StateCommon.Content.Color1 = System.Drawing.Color.Silver;
+            this.txtChat.StateCommon.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtChat.TabIndex = 71;
+            // 
+            // kryptonRichTextBox1
+            // 
+            this.kryptonRichTextBox1.Location = new System.Drawing.Point(12, 140);
+            this.kryptonRichTextBox1.Name = "kryptonRichTextBox1";
+            this.kryptonRichTextBox1.Size = new System.Drawing.Size(518, 424);
+            this.kryptonRichTextBox1.TabIndex = 72;
+            this.kryptonRichTextBox1.Text = "kryptonRichTextBox1";
+>>>>>>> Agregar archivos de proyecto.
             // 
             // Chat
             // 
@@ -214,12 +247,17 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(542, 651);
+<<<<<<< HEAD
             this.Controls.Add(this.kryptonTextBox5);
             this.Controls.Add(this.kryptonTextBox4);
             this.Controls.Add(this.kryptonTextBox3);
             this.Controls.Add(this.kryptonTextBox2);
             this.Controls.Add(this.kryptonTextBox1);
             this.Controls.Add(this.txtName);
+=======
+            this.Controls.Add(this.kryptonRichTextBox1);
+            this.Controls.Add(this.txtChat);
+>>>>>>> Agregar archivos de proyecto.
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.panel1);
             this.Name = "Chat";
@@ -239,11 +277,16 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label lb_Mentrores;
         private Guna.UI2.WinForms.Guna2Button btnSalir;
+<<<<<<< HEAD
         private ComponentFactory.Krypton.Toolkit.KryptonTextBox txtName;
         private ComponentFactory.Krypton.Toolkit.KryptonTextBox kryptonTextBox1;
         private ComponentFactory.Krypton.Toolkit.KryptonTextBox kryptonTextBox2;
         private ComponentFactory.Krypton.Toolkit.KryptonTextBox kryptonTextBox3;
         private ComponentFactory.Krypton.Toolkit.KryptonTextBox kryptonTextBox4;
         private ComponentFactory.Krypton.Toolkit.KryptonTextBox kryptonTextBox5;
+=======
+        private ComponentFactory.Krypton.Toolkit.KryptonTextBox txtChat;
+        private ComponentFactory.Krypton.Toolkit.KryptonRichTextBox kryptonRichTextBox1;
+>>>>>>> Agregar archivos de proyecto.
     }
 }

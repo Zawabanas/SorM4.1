@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+<<<<<<< HEAD
+=======
+using System.Drawing.Drawing2D;
+>>>>>>> Agregar archivos de proyecto.
 using System.Globalization;
 using System.Linq;
 using System.Text;
@@ -28,6 +32,7 @@ namespace SorM4.Forms
             tbEmailPrincipal.Text = CurrentUser.Email;
             tbPasswordPrincipal.Text = CurrentUser.Password;
             RedondearBordesFlowLayoutPanel(dayContainer, 10);
+<<<<<<< HEAD
             CargarMentoriasEnDataGridView();
         }
 
@@ -55,10 +60,93 @@ namespace SorM4.Forms
             else
             {
                 Console.WriteLine("Error al conectar a la base de datos.");
+=======
+
+        }
+
+
+
+        private void MostrarMateriasEnDataGridView()
+        {
+            connectionBD conexion = new connectionBD();
+
+            if (conexion.Conect())
+            {
+                try
+                {
+                    string query = "SELECT m.nombre AS Materia, u.nombre AS Mentor " +
+                                   "FROM Materias m " +
+                                   "INNER JOIN Usuarios u ON m.id_mentor = u.id_user";
+
+                    using (var cmd = new NpgsqlCommand(query, conexion.conn))
+                    {
+                        NpgsqlDataAdapter adapter = new NpgsqlDataAdapter(cmd);
+                        DataTable dataTable = new DataTable();
+                        adapter.Fill(dataTable);
+
+                        MateriasDisponibles.DataSource = dataTable;
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("Error al mostrar las materias: " + ex.Message);
+                }
+                finally
+                {
+                    conexion.Desconectar();
+                }
             }
         }
 
 
+        private void MostrarInscripcionesUsuario()
+        {
+            connectionBD conexion = new connectionBD();
+
+            if (conexion.Conect())
+            {
+                try
+                {
+                    int idUsuario = CurrentUser.Id; // Obtener el ID del usuario actualmente logueado
+
+                    string query = "SELECT i.id_inscripcion, u.nombre AS nombre_usuario, i.id_mentoria " +
+                                   "FROM inscripciones i " +
+                                   "INNER JOIN usuarios u ON i.id_usuario = u.id_user " +
+                                   "WHERE i.id_usuario = @idUsuario";
+
+                    using (var cmd = new NpgsqlCommand(query, conexion.conn))
+                    {
+                        cmd.Parameters.AddWithValue("idUsuario", idUsuario);
+
+                        NpgsqlDataAdapter adapter = new NpgsqlDataAdapter(cmd);
+                        DataTable dataTable = new DataTable();
+                        adapter.Fill(dataTable);
+
+                        materiasInscrito.DataSource = dataTable; // Asignar los datos al DataGridView
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("Error al mostrar las inscripciones: " + ex.Message);
+                }
+                finally
+                {
+                    conexion.Desconectar();
+                }
+>>>>>>> Agregar archivos de proyecto.
+            }
+        }
+
+
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+>>>>>>> Agregar archivos de proyecto.
         //configuracion de perfil
         private void btnSave_Click(object sender, EventArgs e)
         {
@@ -248,6 +336,13 @@ namespace SorM4.Forms
             year = firstDayOfMonth.Year;
 
             displayDays();
+<<<<<<< HEAD
+=======
+            MostrarMateriasEnDataGridView();
+            MostrarInscripcionesUsuario();
+
+
+>>>>>>> Agregar archivos de proyecto.
         }
 
 
@@ -348,6 +443,7 @@ namespace SorM4.Forms
             }
         }
 
+<<<<<<< HEAD
         private void btnInscription_Click(object sender, EventArgs e)
         {
             // Obtener el ID de la mentoria seleccionada en el DataGridView
@@ -489,6 +585,83 @@ namespace SorM4.Forms
 
 
 
+=======
+        private void btnIncription_Click(object sender, EventArgs e)
+        {
+            connectionBD conexion = new connectionBD();
+
+            if (conexion.Conect())
+            {
+                try
+                {
+                    int idUsuario = CurrentUser.Id; // Obtener el ID del usuario actualmente logueado
+                    int idMentoria = 1; // Obtener el ID de la mentoría deseada, puedes reemplazarlo por el valor correspondiente
+
+                    string query = "INSERT INTO inscripciones (id_usuario, id_mentoria) VALUES (@idUsuario, @idMentoria)";
+
+                    using (var cmd = new NpgsqlCommand(query, conexion.conn))
+                    {
+                        cmd.Parameters.AddWithValue("idUsuario", idUsuario);
+                        cmd.Parameters.AddWithValue("idMentoria", idMentoria);
+
+                        cmd.ExecuteNonQuery();
+                    }
+
+                    MessageBox.Show("Inscripción realizada con éxito.");
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("Error al realizar la inscripción: " + ex.Message);
+                }
+                finally
+                {
+                    conexion.Desconectar();
+                }
+            }
+        }
+
+        private void btnbaja_Click(object sender, EventArgs e)
+        {
+            connectionBD conexion = new connectionBD();
+
+            if (conexion.Conect())
+            {
+                try
+                {
+                    int idUsuario = CurrentUser.Id; // Obtener el ID del usuario actualmente logueado
+                    int idInscripcion = 1; // Obtener el ID de la inscripción que se desea eliminar, puedes reemplazarlo por el valor correspondiente
+
+                    string query = "DELETE FROM inscripciones WHERE id_usuario = @idUsuario AND id_inscripcion = @idInscripcion";
+
+                    using (var cmd = new NpgsqlCommand(query, conexion.conn))
+                    {
+                        cmd.Parameters.AddWithValue("idUsuario", idUsuario);
+                        cmd.Parameters.AddWithValue("idInscripcion", idInscripcion);
+
+                        int rowsAffected = cmd.ExecuteNonQuery();
+
+                        if (rowsAffected > 0)
+                        {
+                            MessageBox.Show("Inscripción eliminada con éxito.");
+                        }
+                        else
+                        {
+                            MessageBox.Show("No se encontró la inscripción para eliminar.");
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("Error al eliminar la inscripción: " + ex.Message);
+                }
+                finally
+                {
+                    conexion.Desconectar();
+                }
+            }
+        }
+
+>>>>>>> Agregar archivos de proyecto.
         private void RedondearBordesFlowLayoutPanel(FlowLayoutPanel flowLayoutPanel, int radio)
         {
             flowLayoutPanel.Paint += (sender, e) =>
@@ -508,4 +681,8 @@ namespace SorM4.Forms
         }
 
     }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Agregar archivos de proyecto.
 }
