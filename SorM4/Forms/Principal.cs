@@ -139,6 +139,7 @@ namespace SorM4.Forms
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 
@@ -147,6 +148,8 @@ namespace SorM4.Forms
 
 
 >>>>>>> Agregar archivos de proyecto.
+=======
+>>>>>>> a
         //configuracion de perfil
         private void btnSave_Click(object sender, EventArgs e)
         {
@@ -290,7 +293,6 @@ namespace SorM4.Forms
             int indicePestaña = Convert.ToInt32(boton.Tag);
             CambiarPestaña(indicePestaña);
         }
-
         private void btn_Actividades_Click(object sender, EventArgs e)
         {
             Guna.UI2.WinForms.Guna2Button boton = (Guna.UI2.WinForms.Guna2Button)sender;
@@ -351,7 +353,7 @@ namespace SorM4.Forms
         private void displayDays()
         {
             string monthdname = DateTimeFormatInfo.CurrentInfo.MonthNames[month - 1];
-            lbDate.Text = monthdname + " " + year;
+            //lbDate.Text = monthdname + " " + year;
 
             DateTime startofthemonth = new DateTime(year, month, 1);
 
@@ -364,83 +366,25 @@ namespace SorM4.Forms
             for (int i = 1; i < daysoftheweek; i++)
             {
                 UserControlBlank ucblank = new UserControlBlank();
-                dayContainer.Controls.Add(ucblank);
+                //dayContainer.Controls.Add(ucblank);
             }
 
             for (int i = 1; i <= days; i++)
             {
                 UserControlDays ucdays = new UserControlDays();
                 ucdays.days(i);
-                dayContainer.Controls.Add(ucdays);
+                //dayContainer.Controls.Add(ucdays);
             }
         }
 
         private void btnNext_Click(object sender, EventArgs e)
         {
-            dayContainer.Controls.Clear();
 
-            month++;
-            if (month > 12)
-            {
-                year++;
-                month = 1;
-            }
-
-            string monthdname = DateTimeFormatInfo.CurrentInfo.MonthNames[month - 1];
-            lbDate.Text = monthdname + " " + year;
-
-            DateTime startofthemonth = new DateTime(year, month, 1);
-
-            int days = DateTime.DaysInMonth(year, month);
-
-            int daysoftheweek = (int)startofthemonth.DayOfWeek;
-
-            for (int i = 0; i < daysoftheweek; i++)
-            {
-                UserControlBlank ucblank = new UserControlBlank();
-                dayContainer.Controls.Add(ucblank);
-            }
-
-            for (int i = 1; i <= days; i++)
-            {
-                UserControlDays ucdays = new UserControlDays();
-                ucdays.days(i);
-                dayContainer.Controls.Add(ucdays);
-            }
         }
 
         private void btnPrevious_Click(object sender, EventArgs e)
         {
-            dayContainer.Controls.Clear();
 
-            month--;
-            if (month < 1)
-            {
-                year--;
-                month = 12;
-            }
-
-            string monthdname = DateTimeFormatInfo.CurrentInfo.MonthNames[month - 1];
-            lbDate.Text = monthdname + " " + year;
-
-            DateTime startofthemonth = new DateTime(year, month, 1);
-
-            int days = DateTime.DaysInMonth(year, month);
-
-            int daysoftheweek = (int)startofthemonth.DayOfWeek;
-
-            for (int i = 0; i < daysoftheweek; i++)
-            {
-                UserControlBlank ucblank = new UserControlBlank();
-                dayContainer.Controls.Add(ucblank);
-            }
-
-            for (int i = 1; i <= days; i++)
-            {
-                UserControlDays ucdays = new UserControlDays();
-                ucdays.days(i);
-                dayContainer.Controls.Add(ucdays);
-            }
         }
 
 <<<<<<< HEAD
@@ -661,7 +605,12 @@ namespace SorM4.Forms
             }
         }
 
+<<<<<<< HEAD
 >>>>>>> Agregar archivos de proyecto.
+=======
+
+
+>>>>>>> a
         private void RedondearBordesFlowLayoutPanel(FlowLayoutPanel flowLayoutPanel, int radio)
         {
             flowLayoutPanel.Paint += (sender, e) =>

@@ -31,6 +31,7 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Principal));
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
@@ -39,6 +40,14 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
 >>>>>>> Agregar archivos de proyecto.
+=======
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+>>>>>>> a
             this.kryptonPrincipal = new ComponentFactory.Krypton.Toolkit.KryptonPalette(this.components);
             this.tabControlPrincipal = new System.Windows.Forms.TabControl();
             this.tabStart = new System.Windows.Forms.TabPage();
@@ -83,6 +92,7 @@
             this.btnInscription = new Guna.UI2.WinForms.Guna2Button();
 =======
             this.guna2Panel7 = new Guna.UI2.WinForms.Guna2Panel();
+            this.materiasInscrito = new Guna.UI2.WinForms.Guna2DataGridView();
             this.btnbaja = new Guna.UI2.WinForms.Guna2Button();
             this.label9 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
@@ -93,6 +103,7 @@
             this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
             this.cbUserRole = new Guna.UI2.WinForms.Guna2ComboBox();
             this.btnIncription = new Guna.UI2.WinForms.Guna2Button();
+<<<<<<< HEAD
 >>>>>>> Agregar archivos de proyecto.
             this.tabActivities = new System.Windows.Forms.TabPage();
             this.panel3 = new System.Windows.Forms.Panel();
@@ -102,9 +113,11 @@
             this.guna2Panel12 = new Guna.UI2.WinForms.Guna2Panel();
             this.label10 = new System.Windows.Forms.Label();
 =======
+=======
+            this.tabActividades = new System.Windows.Forms.TabPage();
+>>>>>>> a
             this.guna2Panel11 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel12 = new Guna.UI2.WinForms.Guna2Panel();
-            this.label10 = new System.Windows.Forms.Label();
             this.guna2Panel9 = new Guna.UI2.WinForms.Guna2Panel();
             this.dayContainer = new System.Windows.Forms.FlowLayoutPanel();
             this.label28 = new System.Windows.Forms.Label();
@@ -117,8 +130,11 @@
             this.btnNext = new Guna.UI2.WinForms.Guna2CircleButton();
             this.label27 = new System.Windows.Forms.Label();
             this.lbDate = new System.Windows.Forms.Label();
+<<<<<<< HEAD
 >>>>>>> Agregar archivos de proyecto.
             this.guna2Panel10 = new Guna.UI2.WinForms.Guna2Panel();
+=======
+>>>>>>> a
             this.tabHelp = new System.Windows.Forms.TabPage();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel10 = new System.Windows.Forms.Panel();
@@ -136,6 +152,17 @@
             this.label17 = new System.Windows.Forms.Label();
             this.tabConfiguration = new System.Windows.Forms.TabPage();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.guna2Panel17 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2PictureBox8 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.label21 = new System.Windows.Forms.Label();
+            this.tbEmailPrincipal = new ComponentFactory.Krypton.Toolkit.KryptonTextBox();
+            this.tbPasswordPrincipal = new ComponentFactory.Krypton.Toolkit.KryptonTextBox();
+            this.tbUserNamePrincipal = new ComponentFactory.Krypton.Toolkit.KryptonTextBox();
+            this.tbLastNamePrincipal = new ComponentFactory.Krypton.Toolkit.KryptonTextBox();
+            this.tbNamePrincipal = new ComponentFactory.Krypton.Toolkit.KryptonTextBox();
+            this.guna2Panel16 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label12 = new System.Windows.Forms.Label();
+            this.guna2PictureBox7 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.btnDelete = new Guna.UI2.WinForms.Guna2Button();
 <<<<<<< HEAD
             this.guna2PictureBox8 = new Guna.UI2.WinForms.Guna2PictureBox();
@@ -151,16 +178,17 @@
             this.btnSave = new Guna.UI2.WinForms.Guna2Button();
 >>>>>>> Agregar archivos de proyecto.
             this.panel6 = new System.Windows.Forms.Panel();
+            this.btn_Actividades = new Guna.UI2.WinForms.Guna2Button();
             this.btnMessages = new Guna.UI2.WinForms.Guna2Button();
             this.btnCloseSesion = new Guna.UI2.WinForms.Guna2Button();
             this.btnSalir = new Guna.UI2.WinForms.Guna2Button();
             this.btn_inicio = new Guna.UI2.WinForms.Guna2Button();
             this.btn_seleccionM = new Guna.UI2.WinForms.Guna2Button();
-            this.btn_Actividades = new Guna.UI2.WinForms.Guna2Button();
             this.btn_ayuda = new Guna.UI2.WinForms.Guna2Button();
             this.btn_configuracion = new Guna.UI2.WinForms.Guna2Button();
             this.lb_Mentrores = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+<<<<<<< HEAD
 <<<<<<< HEAD
             this.dayContainer = new System.Windows.Forms.FlowLayoutPanel();
             this.lbDate = new System.Windows.Forms.Label();
@@ -191,6 +219,8 @@
             this.tbNamePrincipal = new ComponentFactory.Krypton.Toolkit.KryptonTextBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
 >>>>>>> Agregar archivos de proyecto.
+=======
+>>>>>>> a
             this.tabControlPrincipal.SuspendLayout();
             this.tabStart.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -215,9 +245,11 @@
             this.guna2Panel7.SuspendLayout();
 =======
             this.guna2Panel7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.materiasInscrito)).BeginInit();
             this.guna2Panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.MateriasDisponibles)).BeginInit();
             this.guna2Panel8.SuspendLayout();
+<<<<<<< HEAD
 >>>>>>> Agregar archivos de proyecto.
             this.tabActivities.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -226,6 +258,9 @@
 <<<<<<< HEAD
 =======
             this.guna2Panel12.SuspendLayout();
+=======
+            this.tabActividades.SuspendLayout();
+>>>>>>> a
             this.guna2Panel9.SuspendLayout();
 >>>>>>> Agregar archivos de proyecto.
             this.tabHelp.SuspendLayout();
@@ -239,6 +274,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.tabConfiguration.SuspendLayout();
             this.panel5.SuspendLayout();
+<<<<<<< HEAD
 <<<<<<< HEAD
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox8)).BeginInit();
             this.panel6.SuspendLayout();
@@ -255,6 +291,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
 >>>>>>> Agregar archivos de proyecto.
+=======
+            this.guna2Panel17.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox8)).BeginInit();
+            this.guna2Panel16.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox7)).BeginInit();
+            this.panel6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+>>>>>>> a
             this.SuspendLayout();
             // 
             // kryptonPrincipal
@@ -273,9 +317,10 @@
             // 
             this.tabControlPrincipal.Controls.Add(this.tabStart);
             this.tabControlPrincipal.Controls.Add(this.tabSubjects);
-            this.tabControlPrincipal.Controls.Add(this.tabActivities);
+            this.tabControlPrincipal.Controls.Add(this.tabActividades);
             this.tabControlPrincipal.Controls.Add(this.tabHelp);
             this.tabControlPrincipal.Controls.Add(this.tabConfiguration);
+<<<<<<< HEAD
 <<<<<<< HEAD
             this.tabControlPrincipal.Location = new System.Drawing.Point(296, 3);
             this.tabControlPrincipal.Name = "tabControlPrincipal";
@@ -287,6 +332,12 @@
             this.tabControlPrincipal.SelectedIndex = 0;
             this.tabControlPrincipal.Size = new System.Drawing.Size(1049, 755);
 >>>>>>> Agregar archivos de proyecto.
+=======
+            this.tabControlPrincipal.Location = new System.Drawing.Point(296, -10);
+            this.tabControlPrincipal.Name = "tabControlPrincipal";
+            this.tabControlPrincipal.SelectedIndex = 0;
+            this.tabControlPrincipal.Size = new System.Drawing.Size(1049, 740);
+>>>>>>> a
             this.tabControlPrincipal.TabIndex = 52;
             // 
             // tabStart
@@ -296,10 +347,14 @@
             this.tabStart.Location = new System.Drawing.Point(4, 25);
             this.tabStart.Name = "tabStart";
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.tabStart.Size = new System.Drawing.Size(1041, 695);
 =======
             this.tabStart.Size = new System.Drawing.Size(1041, 726);
 >>>>>>> Agregar archivos de proyecto.
+=======
+            this.tabStart.Size = new System.Drawing.Size(1041, 711);
+>>>>>>> a
             this.tabStart.TabIndex = 0;
             this.tabStart.Text = "Inicio";
             // 
@@ -323,10 +378,14 @@
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.panel1.Size = new System.Drawing.Size(1041, 695);
 =======
             this.panel1.Size = new System.Drawing.Size(1041, 726);
 >>>>>>> Agregar archivos de proyecto.
+=======
+            this.panel1.Size = new System.Drawing.Size(1041, 711);
+>>>>>>> a
             this.panel1.TabIndex = 0;
             // 
             // guna2PictureBox6
@@ -628,10 +687,14 @@
             this.tabSubjects.Location = new System.Drawing.Point(4, 25);
             this.tabSubjects.Name = "tabSubjects";
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.tabSubjects.Size = new System.Drawing.Size(1041, 695);
 =======
             this.tabSubjects.Size = new System.Drawing.Size(1041, 726);
 >>>>>>> Agregar archivos de proyecto.
+=======
+            this.tabSubjects.Size = new System.Drawing.Size(1041, 711);
+>>>>>>> a
             this.tabSubjects.TabIndex = 1;
             this.tabSubjects.Text = "Materia";
             // 
@@ -642,10 +705,14 @@
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.panel2.Size = new System.Drawing.Size(1041, 695);
 =======
             this.panel2.Size = new System.Drawing.Size(1041, 726);
 >>>>>>> Agregar archivos de proyecto.
+=======
+            this.panel2.Size = new System.Drawing.Size(1041, 711);
+>>>>>>> a
             this.panel2.TabIndex = 1;
             // 
             // panel7
@@ -841,7 +908,7 @@
             this.panel7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel7.Location = new System.Drawing.Point(0, 0);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(1041, 726);
+            this.panel7.Size = new System.Drawing.Size(1041, 711);
             this.panel7.TabIndex = 0;
             // 
             // guna2Panel7
@@ -856,6 +923,59 @@
             this.guna2Panel7.Name = "guna2Panel7";
             this.guna2Panel7.Size = new System.Drawing.Size(950, 286);
             this.guna2Panel7.TabIndex = 76;
+            // 
+            // materiasInscrito
+            // 
+            dataGridViewCellStyle7.BackColor = System.Drawing.Color.White;
+            this.materiasInscrito.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.materiasInscrito.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle8;
+            this.materiasInscrito.ColumnHeadersHeight = 4;
+            this.materiasInscrito.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle9.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle9.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.materiasInscrito.DefaultCellStyle = dataGridViewCellStyle9;
+            this.materiasInscrito.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.materiasInscrito.Location = new System.Drawing.Point(25, 86);
+            this.materiasInscrito.Name = "materiasInscrito";
+            this.materiasInscrito.ReadOnly = true;
+            this.materiasInscrito.RowHeadersVisible = false;
+            this.materiasInscrito.RowHeadersWidth = 51;
+            this.materiasInscrito.RowTemplate.Height = 24;
+            this.materiasInscrito.Size = new System.Drawing.Size(667, 162);
+            this.materiasInscrito.TabIndex = 83;
+            this.materiasInscrito.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
+            this.materiasInscrito.ThemeStyle.AlternatingRowsStyle.Font = null;
+            this.materiasInscrito.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
+            this.materiasInscrito.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
+            this.materiasInscrito.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
+            this.materiasInscrito.ThemeStyle.BackColor = System.Drawing.Color.White;
+            this.materiasInscrito.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.materiasInscrito.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.materiasInscrito.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.materiasInscrito.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.materiasInscrito.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
+            this.materiasInscrito.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            this.materiasInscrito.ThemeStyle.HeaderStyle.Height = 4;
+            this.materiasInscrito.ThemeStyle.ReadOnly = true;
+            this.materiasInscrito.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
+            this.materiasInscrito.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.materiasInscrito.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.materiasInscrito.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.materiasInscrito.ThemeStyle.RowsStyle.Height = 24;
+            this.materiasInscrito.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.materiasInscrito.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             // 
             // btnbaja
             // 
@@ -916,26 +1036,26 @@
             // 
             // MateriasDisponibles
             // 
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
-            this.MateriasDisponibles.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.MateriasDisponibles.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle10.BackColor = System.Drawing.Color.White;
+            this.MateriasDisponibles.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle11.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle11.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.MateriasDisponibles.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle11;
             this.MateriasDisponibles.ColumnHeadersHeight = 4;
             this.MateriasDisponibles.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.MateriasDisponibles.DefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle12.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle12.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.MateriasDisponibles.DefaultCellStyle = dataGridViewCellStyle12;
             this.MateriasDisponibles.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.MateriasDisponibles.Location = new System.Drawing.Point(25, 102);
             this.MateriasDisponibles.Name = "MateriasDisponibles";
@@ -1074,6 +1194,7 @@
             this.btnIncription.Click += new System.EventHandler(this.btnIncription_Click);
 >>>>>>> Agregar archivos de proyecto.
             // 
+<<<<<<< HEAD
             // tabActivities
             // 
             this.tabActivities.Controls.Add(this.panel3);
@@ -1132,17 +1253,31 @@
 =======
             this.panel9.Size = new System.Drawing.Size(1041, 726);
             this.panel9.TabIndex = 81;
+=======
+            // tabActividades
+            // 
+            this.tabActividades.Controls.Add(this.guna2Panel11);
+            this.tabActividades.Controls.Add(this.guna2Panel12);
+            this.tabActividades.Controls.Add(this.guna2Panel9);
+            this.tabActividades.Location = new System.Drawing.Point(4, 25);
+            this.tabActividades.Name = "tabActividades";
+            this.tabActividades.Size = new System.Drawing.Size(1041, 711);
+            this.tabActividades.TabIndex = 5;
+            this.tabActividades.Text = "Actividades";
+            this.tabActividades.UseVisualStyleBackColor = true;
+>>>>>>> a
             // 
             // guna2Panel11
             // 
             this.guna2Panel11.BackColor = System.Drawing.Color.Transparent;
             this.guna2Panel11.BorderRadius = 20;
-            this.guna2Panel11.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.guna2Panel11.Location = new System.Drawing.Point(29, 543);
+            this.guna2Panel11.FillColor = System.Drawing.SystemColors.ActiveBorder;
+            this.guna2Panel11.ImeMode = System.Windows.Forms.ImeMode.Hiragana;
+            this.guna2Panel11.Location = new System.Drawing.Point(28, 512);
             this.guna2Panel11.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Panel11.Name = "guna2Panel11";
-            this.guna2Panel11.Size = new System.Drawing.Size(984, 171);
-            this.guna2Panel11.TabIndex = 82;
+            this.guna2Panel11.Size = new System.Drawing.Size(971, 133);
+            this.guna2Panel11.TabIndex = 84;
             // 
 >>>>>>> Agregar archivos de proyecto.
             // guna2Panel12
@@ -1150,26 +1285,22 @@
             this.guna2Panel12.BackColor = System.Drawing.Color.Transparent;
             this.guna2Panel12.BorderRadius = 20;
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.guna2Panel12.FillColor = System.Drawing.Color.Black;
 =======
             this.guna2Panel12.Controls.Add(this.pictureBox5);
             this.guna2Panel12.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
 >>>>>>> Agregar archivos de proyecto.
             this.guna2Panel12.Location = new System.Drawing.Point(29, 60);
+=======
+            this.guna2Panel12.FillColor = System.Drawing.SystemColors.ActiveBorder;
+            this.guna2Panel12.ImeMode = System.Windows.Forms.ImeMode.Hiragana;
+            this.guna2Panel12.Location = new System.Drawing.Point(28, 29);
+>>>>>>> a
             this.guna2Panel12.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Panel12.Name = "guna2Panel12";
-            this.guna2Panel12.Size = new System.Drawing.Size(586, 460);
-            this.guna2Panel12.TabIndex = 81;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(34, 20);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(147, 29);
-            this.label10.TabIndex = 83;
-            this.label10.Text = "Actividades";
+            this.guna2Panel12.Size = new System.Drawing.Size(573, 422);
+            this.guna2Panel12.TabIndex = 83;
             // 
 <<<<<<< HEAD
 =======
@@ -1188,12 +1319,13 @@
             this.guna2Panel9.Controls.Add(this.btnNext);
             this.guna2Panel9.Controls.Add(this.label27);
             this.guna2Panel9.Controls.Add(this.lbDate);
-            this.guna2Panel9.FillColor = System.Drawing.Color.MediumPurple;
-            this.guna2Panel9.Location = new System.Drawing.Point(647, 60);
+            this.guna2Panel9.FillColor = System.Drawing.SystemColors.ActiveBorder;
+            this.guna2Panel9.ImeMode = System.Windows.Forms.ImeMode.Hiragana;
+            this.guna2Panel9.Location = new System.Drawing.Point(646, 29);
             this.guna2Panel9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Panel9.Name = "guna2Panel9";
-            this.guna2Panel9.Size = new System.Drawing.Size(366, 460);
-            this.guna2Panel9.TabIndex = 82;
+            this.guna2Panel9.Size = new System.Drawing.Size(353, 422);
+            this.guna2Panel9.TabIndex = 85;
             // 
             // dayContainer
             // 
@@ -1253,7 +1385,6 @@
             this.btnPrevious.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.btnPrevious.Size = new System.Drawing.Size(41, 32);
             this.btnPrevious.TabIndex = 99;
-            this.btnPrevious.Click += new System.EventHandler(this.btnPrevious_Click);
             // 
             // label23
             // 
@@ -1304,7 +1435,6 @@
             this.btnNext.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.btnNext.Size = new System.Drawing.Size(41, 32);
             this.btnNext.TabIndex = 98;
-            this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
             // 
             // label27
             // 
@@ -1328,6 +1458,7 @@
             this.lbDate.Text = "Month Year";
             this.lbDate.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+<<<<<<< HEAD
 >>>>>>> Agregar archivos de proyecto.
             // guna2Panel10
             // 
@@ -1340,16 +1471,22 @@
             this.guna2Panel10.Size = new System.Drawing.Size(959, 192);
             this.guna2Panel10.TabIndex = 80;
             // 
+=======
+>>>>>>> a
             // tabHelp
             // 
             this.tabHelp.Controls.Add(this.panel4);
             this.tabHelp.Location = new System.Drawing.Point(4, 25);
             this.tabHelp.Name = "tabHelp";
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.tabHelp.Size = new System.Drawing.Size(1041, 695);
 =======
             this.tabHelp.Size = new System.Drawing.Size(1041, 726);
 >>>>>>> Agregar archivos de proyecto.
+=======
+            this.tabHelp.Size = new System.Drawing.Size(1041, 711);
+>>>>>>> a
             this.tabHelp.TabIndex = 3;
             this.tabHelp.Text = "Help";
             this.tabHelp.UseVisualStyleBackColor = true;
@@ -1362,10 +1499,14 @@
             this.panel4.Location = new System.Drawing.Point(0, 0);
             this.panel4.Name = "panel4";
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.panel4.Size = new System.Drawing.Size(1041, 695);
 =======
             this.panel4.Size = new System.Drawing.Size(1041, 726);
 >>>>>>> Agregar archivos de proyecto.
+=======
+            this.panel4.Size = new System.Drawing.Size(1041, 711);
+>>>>>>> a
             this.panel4.TabIndex = 1;
             // 
             // panel10
@@ -1379,10 +1520,14 @@
             this.panel10.Location = new System.Drawing.Point(0, 0);
             this.panel10.Name = "panel10";
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.panel10.Size = new System.Drawing.Size(1041, 695);
 =======
             this.panel10.Size = new System.Drawing.Size(1041, 726);
 >>>>>>> Agregar archivos de proyecto.
+=======
+            this.panel10.Size = new System.Drawing.Size(1041, 711);
+>>>>>>> a
             this.panel10.TabIndex = 0;
             // 
             // label16
@@ -1530,10 +1675,14 @@
             this.tabConfiguration.Location = new System.Drawing.Point(4, 25);
             this.tabConfiguration.Name = "tabConfiguration";
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.tabConfiguration.Size = new System.Drawing.Size(1041, 695);
 =======
             this.tabConfiguration.Size = new System.Drawing.Size(1041, 726);
 >>>>>>> Agregar archivos de proyecto.
+=======
+            this.tabConfiguration.Size = new System.Drawing.Size(1041, 711);
+>>>>>>> a
             this.tabConfiguration.TabIndex = 4;
             this.tabConfiguration.Text = "Configuración";
             this.tabConfiguration.UseVisualStyleBackColor = true;
@@ -1564,9 +1713,182 @@
             this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel5.Location = new System.Drawing.Point(0, 0);
             this.panel5.Name = "panel5";
+<<<<<<< HEAD
             this.panel5.Size = new System.Drawing.Size(1041, 726);
 >>>>>>> Agregar archivos de proyecto.
+=======
+            this.panel5.Size = new System.Drawing.Size(1041, 711);
+>>>>>>> a
             this.panel5.TabIndex = 1;
+            // 
+            // guna2Panel17
+            // 
+            this.guna2Panel17.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Panel17.BorderRadius = 30;
+            this.guna2Panel17.Controls.Add(this.guna2PictureBox8);
+            this.guna2Panel17.Controls.Add(this.label21);
+            this.guna2Panel17.Controls.Add(this.tbEmailPrincipal);
+            this.guna2Panel17.Controls.Add(this.tbPasswordPrincipal);
+            this.guna2Panel17.Controls.Add(this.tbUserNamePrincipal);
+            this.guna2Panel17.Controls.Add(this.tbLastNamePrincipal);
+            this.guna2Panel17.Controls.Add(this.tbNamePrincipal);
+            this.guna2Panel17.FillColor = System.Drawing.Color.NavajoWhite;
+            this.guna2Panel17.Location = new System.Drawing.Point(30, 20);
+            this.guna2Panel17.Name = "guna2Panel17";
+            this.guna2Panel17.Size = new System.Drawing.Size(499, 594);
+            this.guna2Panel17.TabIndex = 88;
+            // 
+            // guna2PictureBox8
+            // 
+            this.guna2PictureBox8.BackColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox8.FillColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox8.Image")));
+            this.guna2PictureBox8.ImageRotate = 0F;
+            this.guna2PictureBox8.Location = new System.Drawing.Point(119, 100);
+            this.guna2PictureBox8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2PictureBox8.Name = "guna2PictureBox8";
+            this.guna2PictureBox8.Size = new System.Drawing.Size(273, 162);
+            this.guna2PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2PictureBox8.TabIndex = 91;
+            this.guna2PictureBox8.TabStop = false;
+            this.guna2PictureBox8.UseTransparentBackground = true;
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.Location = new System.Drawing.Point(69, 38);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(123, 25);
+            this.label21.TabIndex = 90;
+            this.label21.Text = "Editar Perfil";
+            // 
+            // tbEmailPrincipal
+            // 
+            this.tbEmailPrincipal.Location = new System.Drawing.Point(62, 450);
+            this.tbEmailPrincipal.Margin = new System.Windows.Forms.Padding(4);
+            this.tbEmailPrincipal.Name = "tbEmailPrincipal";
+            this.tbEmailPrincipal.Size = new System.Drawing.Size(374, 38);
+            this.tbEmailPrincipal.StateCommon.Back.Color1 = System.Drawing.Color.White;
+            this.tbEmailPrincipal.StateCommon.Border.Color1 = System.Drawing.SystemColors.Control;
+            this.tbEmailPrincipal.StateCommon.Border.Color2 = System.Drawing.SystemColors.Control;
+            this.tbEmailPrincipal.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.tbEmailPrincipal.StateCommon.Border.Rounding = 10;
+            this.tbEmailPrincipal.StateCommon.Border.Width = 1;
+            this.tbEmailPrincipal.StateCommon.Content.Color1 = System.Drawing.Color.Silver;
+            this.tbEmailPrincipal.StateCommon.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbEmailPrincipal.TabIndex = 89;
+            this.tbEmailPrincipal.Text = "E-mail";
+            // 
+            // tbPasswordPrincipal
+            // 
+            this.tbPasswordPrincipal.Location = new System.Drawing.Point(62, 519);
+            this.tbPasswordPrincipal.Margin = new System.Windows.Forms.Padding(4);
+            this.tbPasswordPrincipal.Name = "tbPasswordPrincipal";
+            this.tbPasswordPrincipal.Size = new System.Drawing.Size(374, 38);
+            this.tbPasswordPrincipal.StateCommon.Back.Color1 = System.Drawing.Color.White;
+            this.tbPasswordPrincipal.StateCommon.Border.Color1 = System.Drawing.SystemColors.Control;
+            this.tbPasswordPrincipal.StateCommon.Border.Color2 = System.Drawing.SystemColors.Control;
+            this.tbPasswordPrincipal.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.tbPasswordPrincipal.StateCommon.Border.Rounding = 10;
+            this.tbPasswordPrincipal.StateCommon.Border.Width = 1;
+            this.tbPasswordPrincipal.StateCommon.Content.Color1 = System.Drawing.Color.Silver;
+            this.tbPasswordPrincipal.StateCommon.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbPasswordPrincipal.TabIndex = 88;
+            this.tbPasswordPrincipal.Text = "Contraseña";
+            // 
+            // tbUserNamePrincipal
+            // 
+            this.tbUserNamePrincipal.Location = new System.Drawing.Point(62, 393);
+            this.tbUserNamePrincipal.Margin = new System.Windows.Forms.Padding(4);
+            this.tbUserNamePrincipal.Name = "tbUserNamePrincipal";
+            this.tbUserNamePrincipal.Size = new System.Drawing.Size(374, 38);
+            this.tbUserNamePrincipal.StateCommon.Back.Color1 = System.Drawing.Color.White;
+            this.tbUserNamePrincipal.StateCommon.Border.Color1 = System.Drawing.SystemColors.Control;
+            this.tbUserNamePrincipal.StateCommon.Border.Color2 = System.Drawing.SystemColors.Control;
+            this.tbUserNamePrincipal.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.tbUserNamePrincipal.StateCommon.Border.Rounding = 10;
+            this.tbUserNamePrincipal.StateCommon.Border.Width = 1;
+            this.tbUserNamePrincipal.StateCommon.Content.Color1 = System.Drawing.Color.Silver;
+            this.tbUserNamePrincipal.StateCommon.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbUserNamePrincipal.TabIndex = 87;
+            this.tbUserNamePrincipal.Text = "Nombre deUsuario";
+            // 
+            // tbLastNamePrincipal
+            // 
+            this.tbLastNamePrincipal.Location = new System.Drawing.Point(62, 337);
+            this.tbLastNamePrincipal.Margin = new System.Windows.Forms.Padding(4);
+            this.tbLastNamePrincipal.Name = "tbLastNamePrincipal";
+            this.tbLastNamePrincipal.Size = new System.Drawing.Size(374, 38);
+            this.tbLastNamePrincipal.StateCommon.Back.Color1 = System.Drawing.Color.White;
+            this.tbLastNamePrincipal.StateCommon.Border.Color1 = System.Drawing.SystemColors.Control;
+            this.tbLastNamePrincipal.StateCommon.Border.Color2 = System.Drawing.SystemColors.Control;
+            this.tbLastNamePrincipal.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.tbLastNamePrincipal.StateCommon.Border.Rounding = 10;
+            this.tbLastNamePrincipal.StateCommon.Border.Width = 1;
+            this.tbLastNamePrincipal.StateCommon.Content.Color1 = System.Drawing.Color.Silver;
+            this.tbLastNamePrincipal.StateCommon.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbLastNamePrincipal.TabIndex = 86;
+            this.tbLastNamePrincipal.Text = "Apellido";
+            // 
+            // tbNamePrincipal
+            // 
+            this.tbNamePrincipal.Location = new System.Drawing.Point(62, 286);
+            this.tbNamePrincipal.Margin = new System.Windows.Forms.Padding(4);
+            this.tbNamePrincipal.Name = "tbNamePrincipal";
+            this.tbNamePrincipal.Size = new System.Drawing.Size(374, 38);
+            this.tbNamePrincipal.StateCommon.Back.Color1 = System.Drawing.Color.White;
+            this.tbNamePrincipal.StateCommon.Border.Color1 = System.Drawing.SystemColors.Control;
+            this.tbNamePrincipal.StateCommon.Border.Color2 = System.Drawing.SystemColors.Control;
+            this.tbNamePrincipal.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.tbNamePrincipal.StateCommon.Border.Rounding = 10;
+            this.tbNamePrincipal.StateCommon.Border.Width = 1;
+            this.tbNamePrincipal.StateCommon.Content.Color1 = System.Drawing.Color.Silver;
+            this.tbNamePrincipal.StateCommon.Content.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbNamePrincipal.TabIndex = 85;
+            this.tbNamePrincipal.Text = "Nombre";
+            // 
+            // guna2Panel16
+            // 
+            this.guna2Panel16.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Panel16.BorderRadius = 30;
+            this.guna2Panel16.Controls.Add(this.label12);
+            this.guna2Panel16.Controls.Add(this.guna2PictureBox7);
+            this.guna2Panel16.FillColor = System.Drawing.Color.MediumSlateBlue;
+            this.guna2Panel16.Location = new System.Drawing.Point(647, 20);
+            this.guna2Panel16.Name = "guna2Panel16";
+            this.guna2Panel16.Size = new System.Drawing.Size(334, 594);
+            this.guna2Panel16.TabIndex = 86;
+            // 
+            // label12
+            // 
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(28, 365);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(317, 99);
+            this.label12.TabIndex = 87;
+            this.label12.Text = "Recuerda que tu informacion esta segura con cosotros";
+            // 
+            // guna2PictureBox7
+            // 
+            this.guna2PictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox7.Image")));
+            this.guna2PictureBox7.ImageRotate = 0F;
+            this.guna2PictureBox7.Location = new System.Drawing.Point(-24, 38);
+            this.guna2PictureBox7.Name = "guna2PictureBox7";
+            this.guna2PictureBox7.Size = new System.Drawing.Size(390, 283);
+            this.guna2PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2PictureBox7.TabIndex = 0;
+            this.guna2PictureBox7.TabStop = false;
             // 
             // btnDelete
             // 
@@ -1780,12 +2102,12 @@
 >>>>>>> Agregar archivos de proyecto.
             // panel6
             // 
+            this.panel6.Controls.Add(this.btn_Actividades);
             this.panel6.Controls.Add(this.btnMessages);
             this.panel6.Controls.Add(this.btnCloseSesion);
             this.panel6.Controls.Add(this.btnSalir);
             this.panel6.Controls.Add(this.btn_inicio);
             this.panel6.Controls.Add(this.btn_seleccionM);
-            this.panel6.Controls.Add(this.btn_Actividades);
             this.panel6.Controls.Add(this.btn_ayuda);
             this.panel6.Controls.Add(this.btn_configuracion);
             this.panel6.Controls.Add(this.lb_Mentrores);
@@ -1795,6 +2117,29 @@
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(302, 716);
             this.panel6.TabIndex = 53;
+            // 
+            // btn_Actividades
+            // 
+            this.btn_Actividades.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Actividades.BorderRadius = 20;
+            this.btn_Actividades.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_Actividades.DisabledState.BorderColor = System.Drawing.Color.Transparent;
+            this.btn_Actividades.DisabledState.CustomBorderColor = System.Drawing.Color.Transparent;
+            this.btn_Actividades.DisabledState.FillColor = System.Drawing.Color.Transparent;
+            this.btn_Actividades.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_Actividades.FillColor = System.Drawing.Color.White;
+            this.btn_Actividades.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Actividades.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.btn_Actividades.Image = ((System.Drawing.Image)(resources.GetObject("btn_Actividades.Image")));
+            this.btn_Actividades.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btn_Actividades.Location = new System.Drawing.Point(17, 270);
+            this.btn_Actividades.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btn_Actividades.Name = "btn_Actividades";
+            this.btn_Actividades.Size = new System.Drawing.Size(277, 52);
+            this.btn_Actividades.TabIndex = 72;
+            this.btn_Actividades.Text = "    Actividades";
+            this.btn_Actividades.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btn_Actividades.Click += new System.EventHandler(this.btn_Actividades_Click);
             // 
             // btnMessages
             // 
@@ -1810,7 +2155,7 @@
             this.btnMessages.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.btnMessages.Image = ((System.Drawing.Image)(resources.GetObject("btnMessages.Image")));
             this.btnMessages.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnMessages.Location = new System.Drawing.Point(17, 338);
+            this.btnMessages.Location = new System.Drawing.Point(17, 326);
             this.btnMessages.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnMessages.Name = "btnMessages";
             this.btnMessages.Size = new System.Drawing.Size(277, 52);
@@ -1914,30 +2259,6 @@
             this.btn_seleccionM.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btn_seleccionM.Click += new System.EventHandler(this.btn_seleccionM_Click);
             // 
-            // btn_Actividades
-            // 
-            this.btn_Actividades.BackColor = System.Drawing.Color.Transparent;
-            this.btn_Actividades.BorderRadius = 20;
-            this.btn_Actividades.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_Actividades.DisabledState.BorderColor = System.Drawing.Color.Transparent;
-            this.btn_Actividades.DisabledState.CustomBorderColor = System.Drawing.Color.Transparent;
-            this.btn_Actividades.DisabledState.FillColor = System.Drawing.Color.Transparent;
-            this.btn_Actividades.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btn_Actividades.FillColor = System.Drawing.Color.White;
-            this.btn_Actividades.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Actividades.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.btn_Actividades.Image = ((System.Drawing.Image)(resources.GetObject("btn_Actividades.Image")));
-            this.btn_Actividades.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btn_Actividades.Location = new System.Drawing.Point(13, 275);
-            this.btn_Actividades.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btn_Actividades.Name = "btn_Actividades";
-            this.btn_Actividades.Size = new System.Drawing.Size(277, 52);
-            this.btn_Actividades.TabIndex = 66;
-            this.btn_Actividades.Tag = "2";
-            this.btn_Actividades.Text = "    Actividades";
-            this.btn_Actividades.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btn_Actividades.Click += new System.EventHandler(this.btn_Actividades_Click);
-            // 
             // btn_ayuda
             // 
             this.btn_ayuda.BackColor = System.Drawing.Color.Transparent;
@@ -1952,7 +2273,7 @@
             this.btn_ayuda.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.btn_ayuda.Image = ((System.Drawing.Image)(resources.GetObject("btn_ayuda.Image")));
             this.btn_ayuda.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btn_ayuda.Location = new System.Drawing.Point(17, 394);
+            this.btn_ayuda.Location = new System.Drawing.Point(17, 382);
             this.btn_ayuda.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_ayuda.Name = "btn_ayuda";
             this.btn_ayuda.Size = new System.Drawing.Size(277, 52);
@@ -1976,7 +2297,7 @@
             this.btn_configuracion.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.btn_configuracion.Image = ((System.Drawing.Image)(resources.GetObject("btn_configuracion.Image")));
             this.btn_configuracion.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btn_configuracion.Location = new System.Drawing.Point(17, 451);
+            this.btn_configuracion.Location = new System.Drawing.Point(17, 439);
             this.btn_configuracion.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_configuracion.Name = "btn_configuracion";
             this.btn_configuracion.Size = new System.Drawing.Size(277, 52);
@@ -2007,6 +2328,7 @@
             this.pictureBox1.TabIndex = 62;
             this.pictureBox1.TabStop = false;
             // 
+<<<<<<< HEAD
 <<<<<<< HEAD
             // dayContainer
             // 
@@ -2417,6 +2739,8 @@
             this.pictureBox5.TabStop = false;
 >>>>>>> Agregar archivos de proyecto.
             // 
+=======
+>>>>>>> a
             // Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -2461,10 +2785,12 @@
             this.guna2Panel7.ResumeLayout(false);
 =======
             this.guna2Panel7.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.materiasInscrito)).EndInit();
             this.guna2Panel6.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.MateriasDisponibles)).EndInit();
             this.guna2Panel8.ResumeLayout(false);
             this.guna2Panel8.PerformLayout();
+<<<<<<< HEAD
 >>>>>>> Agregar archivos de proyecto.
             this.tabActivities.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
@@ -2474,6 +2800,9 @@
 <<<<<<< HEAD
 =======
             this.guna2Panel12.ResumeLayout(false);
+=======
+            this.tabActividades.ResumeLayout(false);
+>>>>>>> a
             this.guna2Panel9.ResumeLayout(false);
             this.guna2Panel9.PerformLayout();
 >>>>>>> Agregar archivos de proyecto.
@@ -2489,6 +2818,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.tabConfiguration.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
+<<<<<<< HEAD
 <<<<<<< HEAD
             this.panel5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox8)).EndInit();
@@ -2510,6 +2840,16 @@
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
 >>>>>>> Agregar archivos de proyecto.
+=======
+            this.guna2Panel17.ResumeLayout(false);
+            this.guna2Panel17.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox8)).EndInit();
+            this.guna2Panel16.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox7)).EndInit();
+            this.panel6.ResumeLayout(false);
+            this.panel6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+>>>>>>> a
             this.ResumeLayout(false);
 
         }
@@ -2522,8 +2862,6 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.TabPage tabSubjects;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.TabPage tabActivities;
-        private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.TabPage tabHelp;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.TabPage tabConfiguration;
@@ -2542,7 +2880,6 @@
         private Guna.UI2.WinForms.Guna2Button btnSalir;
         private Guna.UI2.WinForms.Guna2Button btn_inicio;
         private Guna.UI2.WinForms.Guna2Button btn_seleccionM;
-        private Guna.UI2.WinForms.Guna2Button btn_Actividades;
         private Guna.UI2.WinForms.Guna2Button btn_ayuda;
         private Guna.UI2.WinForms.Guna2Button btn_configuracion;
         private System.Windows.Forms.Label lb_Mentrores;
@@ -2568,12 +2905,15 @@
         private Guna.UI2.WinForms.Guna2Panel guna2Panel6;
 =======
         private Guna.UI2.WinForms.Guna2Button btnCloseSesion;
+<<<<<<< HEAD
 >>>>>>> Agregar archivos de proyecto.
         private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.Panel panel9;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel12;
         private System.Windows.Forms.Label label10;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel10;
+=======
+>>>>>>> a
         private System.Windows.Forms.Panel panel10;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel15;
         private System.Windows.Forms.Label label13;
@@ -2612,6 +2952,7 @@
         private Guna.UI2.WinForms.Guna2Button btnDelete;
         private Guna.UI2.WinForms.Guna2Button btnMessages;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox5;
+<<<<<<< HEAD
         private System.Windows.Forms.FlowLayoutPanel dayContainer;
         private System.Windows.Forms.Label lbDate;
         private Guna.UI2.WinForms.Guna2CircleButton btnPrevious;
@@ -2628,6 +2969,8 @@
 <<<<<<< HEAD
         private ComponentFactory.Krypton.Toolkit.KryptonDataGridView dataMentorias;
 =======
+=======
+>>>>>>> a
         private Guna.UI2.WinForms.Guna2Panel guna2Panel6;
         private System.Windows.Forms.Label label9;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel7;
@@ -2644,7 +2987,6 @@
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox7;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel17;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.PictureBox pictureBox5;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox8;
         private System.Windows.Forms.Label label21;
         private ComponentFactory.Krypton.Toolkit.KryptonTextBox tbEmailPrincipal;
@@ -2652,6 +2994,25 @@
         private ComponentFactory.Krypton.Toolkit.KryptonTextBox tbUserNamePrincipal;
         private ComponentFactory.Krypton.Toolkit.KryptonTextBox tbLastNamePrincipal;
         private ComponentFactory.Krypton.Toolkit.KryptonTextBox tbNamePrincipal;
+<<<<<<< HEAD
 >>>>>>> Agregar archivos de proyecto.
+=======
+        private System.Windows.Forms.TabPage tabActividades;
+        private Guna.UI2.WinForms.Guna2Button btn_Actividades;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel11;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel12;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel9;
+        private System.Windows.Forms.FlowLayoutPanel dayContainer;
+        private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Label label25;
+        private Guna.UI2.WinForms.Guna2CircleButton btnPrevious;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.Label label24;
+        private Guna.UI2.WinForms.Guna2CircleButton btnNext;
+        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.Label lbDate;
+>>>>>>> a
     }
 }
